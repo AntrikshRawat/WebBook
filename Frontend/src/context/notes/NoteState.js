@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import notecontext from './noteContext'
-const URL = "https://webbook-b.vercel.app/api";
+const URL = process.env.REACT_APP_BACKEND_URL;
 let allNotes = [];
 const NoteState = (props) => {
   let token = localStorage.getItem('token');

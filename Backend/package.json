@@ -19,6 +19,7 @@
     "vercel": "^36.0.0"
   },
   "devDependencies": {
+    "dotenv": "^17.4.2",
     "nodemon": "^3.1.4"
   }
 }
